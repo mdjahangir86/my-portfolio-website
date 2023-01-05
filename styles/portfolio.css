@@ -51,8 +51,9 @@ nav li {
 .jb {
     width: 584px;
     height: 676px;
-    left: 978px;
+    left: 1338px;
     top: 161px;
+    
 
 }
 
@@ -217,4 +218,22 @@ main {
     margin-bottom: 120px;
     margin-top: 70px;
     text-align: center;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.contact, input[type=text], input[type=email], textarea{
+    margin-bottom: 24px;
+    padding-left: 18px 30px;
+    border: 0;
+    width: 90%;
+}
+input{
+    height: 64px;
 }
